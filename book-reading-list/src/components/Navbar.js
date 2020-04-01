@@ -1,8 +1,8 @@
 import React, { useContext } from 'react';
-import BookContext from '../contexts/BookContext';
+import {BookContext} from '../contexts/BookContext';
 
 const NavBar = () => {
-    const { books } = useContext(BookContext);
+    const {books} = useContext(BookContext);
 
     return(
         <div className="navBar">
